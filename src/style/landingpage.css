@@ -10,7 +10,7 @@
   align-items: end;
 }
 .title {
-  font-size: 1em;
+  font-size: 2em;
   font-weight: 800;
   text-shadow: 2px 2px #ffe7e7;
 }
@@ -19,16 +19,21 @@
 }
 .trending {
   height: auto;
-  background: rgb(37, 34, 34);
+  background: url(../assets/bg/images2.jpg);
   background-size: cover;
 }
 .card {
   height: auto;
   background-color: white;
   margin-top: 5px;
-  margin: 2px;
+  margin: 5px;
   padding: 2px;
 }
 .img {
   height: 400px;
+}
+.superHero {
+  height: auto;
+  background: url(../assets/bg/img3.jpg);
+  background-size: cover;
 }
