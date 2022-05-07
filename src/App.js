@@ -5,7 +5,7 @@ import "./style/landingpage.css";
 import Intro from "./components/intro";
 import Trending from "./components/trending";
 import SuperHero from "./components/superHero";
-
+import Footer from "./components/footer";
 function App() {
   return (
     <div>
@@ -21,6 +21,9 @@ function App() {
       </div>
       <div className="superHero">
         <SuperHero />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
