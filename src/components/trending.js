@@ -6,6 +6,38 @@ import Spongebob from "../assets/film/film4.jpg";
 import DoctorStrange from "../assets/film/film5.jpg";
 import KKN from "../assets/film/film6.jpg";
 const Trending = () => {
+  const dataTrending = [
+    {
+      image: ItsOK,
+      title: "It's Okay To Be Not Okay",
+      desc: "Its Okay To Not Be Okay mengisahkan tentang orang-orang yang haus cinta dan kasih sayang namun mengalami trauma dalam hidupnya. Kemudian saling bertemu dan menumbuhkan rasa satu sama lain dan berakhir dengan saling dukung serta saling cinta.",
+    },
+    {
+      image: PeakyBlinder,
+      title: "Peaky Blidnder",
+      desc: "Peaky Blinders adalah serial tentang keluarga gangster berlatar di Birmingham, Inggris tahun 1919. Mereka mengisahkan masa-masa setelah Perang Dunia Pertama meledak.",
+    },
+    {
+      image: Spiderman,
+      title: "Spiderman : No Way Home",
+      desc: "Spiderman No Way Home mengisahkan tentang kegelisahan Peter Parker yang diperankan Tom Holland karena difitnah. Mysterio, yang diperankan oleh Jake Gyllenhaal adalah orang yang memfitnah Parker dan akhirnya mati terlebih dahulu sebelum masalah bisa diselesaikan.",
+    },
+    {
+      image: Spongebob,
+      title: "SpongeBob Squarepants the Movie",
+      desc: "SpongeBob SquarePants mengambil cuti dari kota Bikini Bottom untuk melacak mahkota Raja Neptunus yang dicuri.",
+    },
+    {
+      image: DoctorStrange,
+      title: "Doctor Strange 2",
+      desc: "Doctor Strange 2 mengisahkan perjuangan Stephen Strange (Benedict Cumberbatch) menghadapi berbagai kejadian aneh akibat pintu lintas semesta yang terbuka pasca kejadian di Spider-Man No Way Home.",
+    },
+    {
+      image: KKN,
+      title: "KKN di Desa Penari",
+      desc: "mengisahkan kejadian mistis di luar logika yang menimpa enam mahasiswa kala kuliah kerja nyata (KKN) di desa terpencil.",
+    },
+  ];
   return (
     <div>
       <Container>
@@ -15,66 +47,17 @@ const Trending = () => {
         </h1>
         <br />
         <Row className>
-          <Col md={4}>
-            <div className="card">
-              <Card className="bg-dark text-white card">
-                <Image src={ItsOK} alt="ItsOk" className="img" />
-                <Card.Title className="text-center p-2">It's Okay To Be Not Okay</Card.Title>
-                <Card.Text className="text-left p-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
-                <Card.Text className="text-left p-2">Last updated 3 mins ago</Card.Text>
-              </Card>
-            </div>
-          </Col>
-          <Col md={4}>
-            <div className="card">
-              <Card className="bg-dark text-white card">
-                <Image src={PeakyBlinder} alt="ItsOk" className="img" />
-                <Card.Title className="text-center p-2">Peaky Blinder</Card.Title>
-                <Card.Text className="text-left p-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
-                <Card.Text className="text-left p-2">Last updated 3 mins ago</Card.Text>
-              </Card>
-            </div>
-          </Col>
-          <Col md={4}>
-            <div className="card">
-              <Card className="bg-dark text-white card">
-                <Image src={Spiderman} alt="ItsOk" className="img" />
-                <Card.Title className="text-center p-2">Spiderman : No Way Home</Card.Title>
-                <Card.Text className="text-left p-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
-                <Card.Text className="text-left p-2">Last updated 3 mins ago</Card.Text>
-              </Card>
-            </div>
-          </Col>
-          <Col md={4}>
-            <div className="card">
-              <Card className="bg-dark text-white card">
-                <Image src={Spongebob} alt="ItsOk" className="img" />
-                <Card.Title className="text-center p-2">SpongeBob Squarepants the Movie</Card.Title>
-                <Card.Text className="text-left p-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
-                <Card.Text className="text-left p-2">Last updated 3 mins ago</Card.Text>
-              </Card>
-            </div>
-          </Col>
-          <Col md={4}>
-            <div className="card">
-              <Card className="bg-dark text-white card">
-                <Image src={DoctorStrange} alt="ItsOk" className="img" />
-                <Card.Title className="text-center p-2">Doctor Strange</Card.Title>
-                <Card.Text className="text-left p-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
-                <Card.Text className="text-left p-2">Last updated 3 mins ago</Card.Text>
-              </Card>
-            </div>
-          </Col>
-          <Col md={4}>
-            <div className="card">
-              <Card className="bg-dark text-white card">
-                <Image src={KKN} alt="ItsOk" className="img" />
-                <Card.Title className="text-center p-2">KKN di Desa Penari</Card.Title>
-                <Card.Text className="text-left p-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
-                <Card.Text className="text-left p-2">Last updated 3 mins ago</Card.Text>
-              </Card>
-            </div>
-          </Col>
+          {dataTrending.map((trending, index) => (
+            <Col md={4}>
+              <div className="card">
+                <Card className="bg-dark text-white card">
+                  <Image src={trending.image} alt="ItsOk" className="img" />
+                  <Card.Title className="text-center p-2">{trending.title}</Card.Title>
+                  <Card.Text className="text-left p-2 desc">{trending.desc}</Card.Text>
+                </Card>
+              </div>
+            </Col>
+          ))}
         </Row>
       </Container>
     </div>
