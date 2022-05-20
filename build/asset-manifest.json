@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1d494dcd.css",
+    "main.js": "/static/js/main.5393859f.js",
+    "static/js/787.13448508.chunk.js": "/static/js/787.13448508.chunk.js",
+    "static/media/film5.jpg": "/static/media/film5.a1033681c270d2d13d53.jpg",
+    "static/media/CapAmerica.jpg": "/static/media/CapAmerica.6e6554a6a112aae47aad.jpg",
+    "static/media/img1.jpg": "/static/media/img1.cc69732a40929024d2ef.jpg",
+    "static/media/film1.jpg": "/static/media/film1.d681ed32c17a3d370218.jpg",
+    "static/media/batman.jpg": "/static/media/batman.8c765b2ab6b3f40f3a5d.jpg",
+    "static/media/film2.jpg": "/static/media/film2.1c2fd4b96acb53e256c7.jpg",
+    "static/media/antman.jpg": "/static/media/antman.edc4a0bb8a4bd43774c1.jpg",
+    "static/media/avenegr.jpg": "/static/media/avenegr.5ef3a88efc13eb0c0c1f.jpg",
+    "static/media/Superman.jpg": "/static/media/Superman.1f90bb661b43de78b7b8.jpg",
+    "static/media/film3.jpg": "/static/media/film3.5c1cb9714315e62fb9e6.jpg",
+    "static/media/thor.jpg": "/static/media/thor.4b6dfa3101db0eb46e3a.jpg",
+    "static/media/img3.jpg": "/static/media/img3.c3748f7c0e0e607ec3a3.jpg",
+    "static/media/film6.jpg": "/static/media/film6.577f02d9e8a0053b7892.jpg",
+    "static/media/images2.jpg": "/static/media/images2.dc761bd0a2bc2453f7da.jpg",
+    "static/media/film4.jpg": "/static/media/film4.2bf824ec32de69d1206c.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.1d494dcd.css.map": "/static/css/main.1d494dcd.css.map",
+    "main.5393859f.js.map": "/static/js/main.5393859f.js.map",
+    "787.13448508.chunk.js.map": "/static/js/787.13448508.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d494dcd.css",
+    "static/js/main.5393859f.js"
+  ]
+}
