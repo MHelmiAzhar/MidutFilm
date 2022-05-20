@@ -1,11 +1,5 @@
 import { useEffect, useState } from "react";
 import { Card, Container, Row, Col, Image } from "react-bootstrap";
-import ItsOK from "../assets/film/film1.jpg";
-import PeakyBlinder from "../assets/film/film2.jpg";
-import Spiderman from "../assets/film/film3.jpg";
-import Spongebob from "../assets/film/film4.jpg";
-import DoctorStrange from "../assets/film/film5.jpg";
-import KKN from "../assets/film/film6.jpg";
 import axios from "axios";
 
 const Trending = () => {
