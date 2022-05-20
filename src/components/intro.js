@@ -5,7 +5,7 @@ const Intro = () => {
       <Container className="text-black d-flex justify-content-center align-items-center text-center ">
         <Row>
           <Col>
-            <div className="title mt-2">Tempat Nonton Orang-orang Miskin</div>
+            <div className="title mt-2">Tempat Nonton Gratis Semua Orang</div>
             <div className="introButton text-center mt-2">
               <Button href="#Trending" variant="dark">
                 Lihat Semua
