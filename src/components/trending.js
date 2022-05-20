@@ -33,9 +33,7 @@ const Trending = () => {
                     <Card.Title className="text-center p-2">{result.title}</Card.Title>
                     <Card.Title className="text-center">{result.release_date}</Card.Title>
                     <Card.Text className="text-left p-2 desc">{result.overview}</Card.Text>
-                    <Card.Text className="text-left p-2 desc">{result.popularity}</Card.Text>
-                    <Card.Text className="text-left p-2 desc">{result.vote_average}</Card.Text>
-                    <Card.Text className="text-left p-2 desc">{result.vote_count}</Card.Text>
+                    <Card.Text className="text-end text-warning p-2 desc"> {result.vote_average}</Card.Text>
                   </Card>
                 </div>
               </Col>
